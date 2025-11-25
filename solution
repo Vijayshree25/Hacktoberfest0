@@ -1,0 +1,13 @@
+class Solution {
+    public int evenNumberBitwiseORs(int[] values) {
+        int combineOR=0;
+        for(int alaska:values)
+        {
+            if(alaska%2==0)
+            {
+                combineOR|=alaska;
+            }
+        }
+        return combineOR;
+    }
+}
